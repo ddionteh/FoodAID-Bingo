@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+</head>
+<body>
+    <h1>Bingo Game</h1>
+    <div id="bingo-container">
+        <img id="random-face" src="faces/face1.png" alt="Random Face">
+        <button id="button">Draw Face</button>
+        <div id="animation-container" style="display: none;"></div>
+    </div>
+    <div id="counter">Drawn Faces: 0 / 31</div>
+    <div id="history-container">
+        <h2>Previously Drawn Faces</h2>
+        <div id="history"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
